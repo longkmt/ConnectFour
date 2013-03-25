@@ -1,0 +1,11 @@
+
+	public static int randomCoin(){
+		
+		int ran=0;
+		
+		Random coin = new Random();
+		
+		ran = coin.nextInt(2);
+		
+		return ran;
+	}
